@@ -107,7 +107,7 @@ if(isset($_SESSION[docu])){ // select_name will be replaced with your input file
 <div id="block">
 
 
-<table class="type09" cellspacing="1" style="width:600px;height:50px;border:0px;">
+<table class="type09" cellspacing="1" style="width:500px;height:50px;border:0px;">
 <thead>
 
 <tr>
@@ -145,11 +145,19 @@ if(isset($_SESSION[docu])){ // select_name will be replaced with your input file
 ?>
 
 </table>
+
+
+
+
+
  </div>
  </div>
 
+<div align=center>
+<button class="btn_next" type="button" 
+        onclick="window.close();">종료</button>
 
-
+</div>
     
     </body>
 </html>

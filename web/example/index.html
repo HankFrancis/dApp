@@ -53,7 +53,13 @@
     <div class="subtitle"><p>기관분류</p></div>
       <select class="orgList1" name="test" onchange="changes(document.form.test.value)" size="15">  
         <option value="1">경찰청</option>
-        <option value="2">관세청</option>
+        <option value="2">법원</option>
+        <option value="3">관세청</option>
+        <option value="4">동사무소</option>
+        <option value="5">구청</option>
+        <option value="6">시청</option>
+        <option value="7">도청</option>
+        
       </select>
       <select class="orgList2" multiple onchange="selects(document.form.test2.value)" name="test2" size="15">
         <option>--소분류입니다--</option>
@@ -77,8 +83,8 @@
         num = new Array("강원지방경찰청", "경기남부지방경찰청", "경기북부지방경찰청","경남지방경찰청","경북지방경찰청","전남지방경찰청","전북지방경찰청","인천지방경찰청","충남지방경찰청");
         vnum = new Array("강원지방경찰청", "경기남부지방경찰청", "경기북부지방경찰청","경남지방경찰청","경북지방경찰청","전남지방경찰청","전북지방경찰청","인천지방경찰청","충남지방경찰청");
         } else if(fr==2) {
-          num = new Array("2)첫번째목록","2)두번째목록","2)세번째목록");
-        vnum = new Array("1","2","3");
+          num = new Array("서울중앙지방법원", "서울동부지방법원", "서울남부지방법원","서울북부지방법원","서울서부지방법원","의정부지방법원","인천지방법원","춘천지방법원","수원지방법원","대전지방법원","청주지방법원","대구지방법원","부산지방법원","창원지방법원","광주지방법원","전주지방법원","제주지방법원");
+        vnum = new Array("서울중앙지방법원", "서울동부지방법원", "서울남부지방법원","서울북부지방법원","서울서부지방법원","의정부지방법원","인천지방법원","춘천지방법원","수원지방법원","대전지방법원","청주지방법원","대구지방법원","부산지방법원","창원지방법원","광주지방법원","전주지방법원","제주지방법원");
         }
         // 셀렉트안의 리스트를 기본값으로 한다..
       for(i=0; i<form.test2.length; i++) {
